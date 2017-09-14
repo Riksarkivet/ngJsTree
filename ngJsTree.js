@@ -245,9 +245,7 @@
 
                 scope.init = function () {
                     scope.tree.jstree(config);
-                    $timeout(function () {
-                        manageEvents(scope, elm, attrs);
-                    });
+                    manageEvents(scope, elm, attrs);
                 };
 
                 nodesWatcher.onChanged = function (node) {
