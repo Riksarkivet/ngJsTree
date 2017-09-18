@@ -244,8 +244,8 @@
                 };
 
                 scope.init = function () {
-                    scope.tree.jstree(config);
                     manageEvents(scope, elm, attrs);
+                    scope.tree.jstree(config);
                 };
 
                 nodesWatcher.onChanged = function (node) {
