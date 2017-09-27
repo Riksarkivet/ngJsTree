@@ -1,8 +1,8 @@
 {
-  "name": "ng-js-tree",
+  "name": "ra-ng-js-tree",
   "main": "dist/ngJsTree.js",
-  "version": "0.0.13",
-  "homepage": "https://github.com/ezraroi/ngJsTree",
+  "version": "0.0.14",
+  "homepage": "https://github.com/Riksarkivet/ngJsTree",
   "authors": [
     "ezraroi <ezraroi@gmail.com>"
   ],
